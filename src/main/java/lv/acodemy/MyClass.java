@@ -68,9 +68,8 @@ public class MyClass {
         boolean passed = (40 > 60); // false
 
       //String
-        String s = "Nadezda Bogdanova";
-        String myFullName = s; // immutable
-        String mfn = new String(original:s);
+        String myFullName = "Nadezda Bogdanova"; // immutable
+        String mfn = new String(original: "Nadezda Bogdanova");
     }
 }
 
