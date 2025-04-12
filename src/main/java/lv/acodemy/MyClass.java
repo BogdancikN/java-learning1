@@ -21,9 +21,8 @@ public class MyClass {
         // Camel Case: MyClass for classes (Capital Camel Case)
         //Camel Case: currentYear for variables (Lower Camel Case)
         // short 16-bit
-        short temperature;
-        temperature = -273;
-        short distance = 1600;
+        short distance;
+        distance = 1600;
 
 
         // int 32-bit
@@ -69,8 +68,9 @@ public class MyClass {
         boolean passed = (40 > 60); // false
 
       //String
-        String myFullName = "Nadezda Bogdanova"; // immutable
-        String mfn = new String(original: "Nadezda Bogdanova");
+        String s = "Nadezda Bogdanova";
+        String myFullName = s; // immutable
+        String mfn = new String(original:s);
     }
 }
 
