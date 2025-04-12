@@ -21,7 +21,8 @@ public class MyClass {
         // Camel Case: MyClass for classes (Capital Camel Case)
         //Camel Case: currentYear for variables (Lower Camel Case)
         // short 16-bit
-        short temperature = -273;
+        short temperature;
+        temperature = -273;
         short distance = 1600;
 
 
