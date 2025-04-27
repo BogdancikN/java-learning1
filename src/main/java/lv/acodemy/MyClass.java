@@ -69,7 +69,11 @@ public class MyClass {
 
       //String
         String myFullName = "Nadezda Bogdanova"; // immutable
-        String mfn = new String(original: "Nadezda Bogdanova");
+        char[] original = new char[0];
+        String mfn;
+        final String S;
+        S = "Nadezda Bogdanova";
     }
 }
+
 
